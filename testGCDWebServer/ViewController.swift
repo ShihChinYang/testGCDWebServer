@@ -52,7 +52,10 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, WKSc
         }
         appLoaded = true
         print(dict)
-        let script = "window.bsafesNative.bsafesNativeToWebCall();"
+        let localhostAccessKeyId = AccessKeyInfo.localhostAccessKeyId
+        let localhostAccessKey = AccessKeyInfo.localhostAccessKey
+        
+        let script = "window.bsafesNative.bsafesNativeToWebCall({localhostAccessKeyId:\"\(localhostAccessKeyId)\", localhostAccessKey:\"\(localhostAccessKey)\"});"
 
         webView.evaluateJavaScript(script) { (result, error) in
             if let result = result {

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5086],{5086:function(e,a,s){function n(){window.bsafesNative.bsafesNativeToWebCall()}s.r(a),s.d(a,{bsafesNativeToWebCall:function(){return n}}),window.bsafesNative={name:"bsafeNative"}}}]);

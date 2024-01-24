@@ -16,7 +16,6 @@
 		D59E82A92B5E85C900EF361C /* testGCDWebServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E82A82B5E85C900EF361C /* testGCDWebServerTests.swift */; };
 		D59E82B32B5E85C900EF361C /* testGCDWebServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E82B22B5E85C900EF361C /* testGCDWebServerUITests.swift */; };
 		D59E82B52B5E85C900EF361C /* testGCDWebServerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E82B42B5E85C900EF361C /* testGCDWebServerUITestsLaunchTests.swift */; };
-		D59E83352B5E9E7A00EF361C /* out in Resources */ = {isa = PBXBuildFile; fileRef = D59E83342B5E9E7A00EF361C /* out */; };
 		D59E83562B5E9F1E00EF361C /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E833A2B5E9F1E00EF361C /* GCDWebServerResponse.m */; };
 		D59E83572B5E9F1E00EF361C /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E833D2B5E9F1E00EF361C /* GCDWebServerRequest.m */; };
 		D59E83582B5E9F1E00EF361C /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E83402B5E9F1E00EF361C /* GCDWebServerFunctions.m */; };
@@ -31,6 +30,8 @@
 		D59E83612B5E9F1E00EF361C /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E83532B5E9F1E00EF361C /* GCDWebServerDataRequest.m */; };
 		D59E83622B5E9F1E00EF361C /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E83542B5E9F1E00EF361C /* GCDWebServerFileRequest.m */; };
 		D59E83632B5E9F4500EF361C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D59E82C72B5E897500EF361C /* libz.tbd */; };
+		D5DA5D682B60BF75006762D7 /* confidentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA5D672B60BF75006762D7 /* confidentials.swift */; };
+		D5DA5D6A2B60F3C7006762D7 /* out in Resources */ = {isa = PBXBuildFile; fileRef = D5DA5D692B60F3C7006762D7 /* out */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +72,6 @@
 		D59E82D42B5E97AC00EF361C /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		D59E82D62B5E97B700EF361C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D59E82D92B5E97D000EF361C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D59E83342B5E9E7A00EF361C /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; path = out; sourceTree = "<group>"; };
 		D59E83382B5E9F1E00EF361C /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		D59E83392B5E9F1E00EF361C /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
 		D59E833A2B5E9F1E00EF361C /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
@@ -100,6 +100,8 @@
 		D59E83532B5E9F1E00EF361C /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
 		D59E83542B5E9F1E00EF361C /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		D59E83552B5E9F1E00EF361C /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		D5DA5D672B60BF75006762D7 /* confidentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confidentials.swift; sourceTree = "<group>"; };
+		D5DA5D692B60F3C7006762D7 /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; path = out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				D59E82B12B5E85C900EF361C /* testGCDWebServerUITests */,
 				D59E828F2B5E85C800EF361C /* Products */,
 				D59E82C32B5E861C00EF361C /* testGCDWebServer-Bridging-Header.h */,
+				D5DA5D662B60BEBC006762D7 /* dotEnv */,
 				D59E82C62B5E897500EF361C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -161,7 +164,7 @@
 				D59E829A2B5E85C900EF361C /* Assets.xcassets */,
 				D59E829C2B5E85C900EF361C /* LaunchScreen.storyboard */,
 				D59E829F2B5E85C900EF361C /* Info.plist */,
-				D59E83342B5E9E7A00EF361C /* out */,
+				D5DA5D692B60F3C7006762D7 /* out */,
 			);
 			path = testGCDWebServer;
 			sourceTree = "<group>";
@@ -253,6 +256,14 @@
 				D59E83552B5E9F1E00EF361C /* GCDWebServerURLEncodedFormRequest.h */,
 			);
 			path = Requests;
+			sourceTree = "<group>";
+		};
+		D5DA5D662B60BEBC006762D7 /* dotEnv */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA5D672B60BF75006762D7 /* confidentials.swift */,
+			);
+			path = dotEnv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +374,7 @@
 				D59E829E2B5E85C900EF361C /* LaunchScreen.storyboard in Resources */,
 				D59E829B2B5E85C900EF361C /* Assets.xcassets in Resources */,
 				D59E82992B5E85C800EF361C /* Main.storyboard in Resources */,
-				D59E83352B5E9E7A00EF361C /* out in Resources */,
+				D5DA5D6A2B60F3C7006762D7 /* out in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +405,7 @@
 				D59E83612B5E9F1E00EF361C /* GCDWebServerDataRequest.m in Sources */,
 				D59E835D2B5E9F1E00EF361C /* GCDWebServerDataResponse.m in Sources */,
 				D59E83592B5E9F1E00EF361C /* GCDWebServer.m in Sources */,
+				D5DA5D682B60BF75006762D7 /* confidentials.swift in Sources */,
 				D59E835F2B5E9F1E00EF361C /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				D59E82962B5E85C800EF361C /* ViewController.swift in Sources */,
 				D59E82922B5E85C800EF361C /* AppDelegate.swift in Sources */,
